@@ -48,3 +48,89 @@ def testWriteStyleRule():
     return css
 
 assert testWriteStyleRule() == '.primary { background-color : #3498db }'
+
+
+# What should really be done is a translation of data
+# so that schemes already exist as objects in an imported file
+
+sampleFullSchemes = [
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#95a5a6' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#3498db' ],
+
+    ['#1abc9c', '#2c3e50',  '#f39c12', '#e74c3c', '#3498db' ],
+
+    ['#9b59b6', '#16a085',  '#e67e22', '#c0392b', '#2c3e50' ],
+
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#1abc9c' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#9b59b6' ],
+
+    ['#1abc9c', '#2c3e50',  '#f39c12', '#e74c3c', '#27ae60' ],
+
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#8e44ad' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#9b59b6' ],
+
+    ['#1abc9c', '#2c3e50',  '#f39c12', '#e74c3c', '#3498db' ],
+
+    ['#9b59b6', '#16a085',  '#e67e22', '#c0392b', '#27ae60' ],
+
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#1abc9c' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#9b59b6' ],
+
+    ['#1abc9c', '#2c3e50',  '#f39c12', '#e74c3c', '#27ae60' ],
+
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#8e44ad' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#3498db' ],
+
+    ['#1abc9c', '#2c3e50',  '#f39c12', '#e74c3c', '#9b59b6' ],
+
+    ['#9b59b6', '#16a085',  '#e67e22', '#c0392b', '#27ae60' ],
+
+    ['#3498db', '#2ecc71',  '#f39c12', '#e74c3c', '#1abc9c' ],
+
+    ['#27ae60', '#34495e',  '#e67e22', '#c0392b', '#9b59b6' ],
+]
+
+schemeTypes = [
+    'primary',
+    'secondary',
+    'accent_1'
+    'accent_2',
+    'accent_3'
+]
+
+htmlFile = [
+    """<html>',
+       <style>
+            .color-block {
+                width: 100px;
+                height: 100px;
+            }
+       </style>
+    """
+]
+
+colorSchemes = initColorSchemes(sampleFullSchemes)
+
+testLines = []
+
+for colorScheme in sampleFullSchemes:
+
+    for i in range(len(colorScheme) -1 ):
+        # style = writeStyleRule( { schemeTypes[i] }, 'background-color', { colorScheme[i] })
+
+        style = f"background-color: {colorScheme[i]}"
+        line = f"<div class='color-block' style = '{style}'></div>\n"
+        testLines.append(line)
+
+f = open("test-schemes.html", "a")
+f.writelines(testLines)
+f.close()
+
+# #open and read the file after the appending:
+# f = open("demofile3.txt", "r")
+# print(f.read()) 
