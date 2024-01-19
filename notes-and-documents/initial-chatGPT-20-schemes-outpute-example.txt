@@ -1,0 +1,42 @@
+1. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #95a5a6
+
+2. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #3498db
+
+3. Primary: #1abc9c, Secondary: #2c3e50, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #3498db
+
+4. Primary: #9b59b6, Secondary: #16a085, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #2c3e50
+
+5. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #1abc9c
+
+6. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #9b59b6
+
+7. Primary: #1abc9c, Secondary: #2c3e50, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #27ae60
+
+8. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #8e44ad
+
+9. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #9b59b6
+
+10. Primary: #1abc9c, Secondary: #2c3e50, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #3498db
+
+11. Primary: #9b59b6, Secondary: #16a085, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #27ae60
+
+12. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #1abc9c
+
+13. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #9b59b6
+
+14. Primary: #1abc9c, Secondary: #2c3e50, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #27ae60
+
+15. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #8e44ad
+
+16. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #3498db
+
+17. Primary: #1abc9c, Secondary: #2c3e50, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #9b59b6
+
+18. Primary: #9b59b6, Secondary: #16a085, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #27ae60
+
+19. Primary: #3498db, Secondary: #2ecc71, Accent 1: #f39c12, Accent 2: #e74c3c, Accent 3: #1abc9c
+
+20. Primary: #27ae60, Secondary: #34495e, Accent 1: #e67e22, Accent 2: #c0392b, Accent 3: #9b59b6
+
+These color schemes can provide a professional and appealing look for business and sales websites.
+Adjustments can be made based on specific brand preferences.
